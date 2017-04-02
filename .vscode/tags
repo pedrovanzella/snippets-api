@@ -1,0 +1,53 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALLOWED_HOSTS	../tutorial/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
+AUTH_PASSWORD_VALIDATORS	../tutorial/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:89
+AppConfig	../snippets/apps.py	/^from django.apps import AppConfig$/;"	kind:namespace	line:1
+BASE_DIR	../tutorial/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
+DATABASES	../tutorial/settings.py	/^DATABASES = {$/;"	kind:variable	line:78
+DEBUG	../tutorial/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
+INSTALLED_APPS	../tutorial/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
+LANGUAGE_CODE	../tutorial/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:108
+MIDDLEWARE	../tutorial/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:44
+ROOT_URLCONF	../tutorial/settings.py	/^ROOT_URLCONF = 'tutorial.urls'$/;"	kind:variable	line:54
+SECRET_KEY	../tutorial/settings.py	/^SECRET_KEY = 'jp@sqoxk#a$tabhw@#w-!=8kgo-uir(x=d0ezyu@j2^!2e%6mn'$/;"	kind:variable	line:23
+STATIC_URL	../tutorial/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:122
+SnippetsConfig	../snippets/apps.py	/^class SnippetsConfig(AppConfig):$/;"	kind:class	line:4
+TEMPLATES	../tutorial/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:56
+TIME_ZONE	../tutorial/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:110
+TestCase	../snippets/tests.py	/^from django.test import TestCase$/;"	kind:namespace	line:1
+USE_I18N	../tutorial/settings.py	/^USE_I18N = True$/;"	kind:variable	line:112
+USE_L10N	../tutorial/settings.py	/^USE_L10N = True$/;"	kind:variable	line:114
+USE_TZ	../tutorial/settings.py	/^USE_TZ = True$/;"	kind:variable	line:116
+WSGI_APPLICATION	../tutorial/settings.py	/^WSGI_APPLICATION = 'tutorial.wsgi.application'$/;"	kind:variable	line:72
+__init__.py	../snippets/__init__.py	1;"	kind:file	line:1
+__init__.py	../snippets/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	../tutorial/__init__.py	1;"	kind:file	line:1
+admin	../snippets/admin.py	/^from django.contrib import admin$/;"	kind:namespace	line:1
+admin	../tutorial/urls.py	/^from django.contrib import admin$/;"	kind:namespace	line:17
+admin.py	../snippets/admin.py	1;"	kind:file	line:1
+application	../tutorial/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+apps.py	../snippets/apps.py	1;"	kind:file	line:1
+django	../manage.py	/^            import django$/;"	kind:namespace	line:14
+execute_from_command_line	../manage.py	/^        from django.core.management import execute_from_command_line$/;"	kind:namespace	line:8
+get_wsgi_application	../tutorial/wsgi.py	/^from django.core.wsgi import get_wsgi_application$/;"	kind:namespace	line:12
+manage.py	../manage.py	1;"	kind:file	line:1
+models	../snippets/models.py	/^from django.db import models$/;"	kind:namespace	line:1
+models.py	../snippets/models.py	1;"	kind:file	line:1
+name	../snippets/apps.py	/^    name = 'snippets'$/;"	kind:variable	line:5
+os	../manage.py	/^import os$/;"	kind:namespace	line:2
+os	../tutorial/settings.py	/^import os$/;"	kind:namespace	line:13
+os	../tutorial/wsgi.py	/^import os$/;"	kind:namespace	line:10
+render	../snippets/views.py	/^from django.shortcuts import render$/;"	kind:namespace	line:1
+settings.py	../tutorial/settings.py	1;"	kind:file	line:1
+sys	../manage.py	/^import sys$/;"	kind:namespace	line:3
+tests.py	../snippets/tests.py	1;"	kind:file	line:1
+url	../tutorial/urls.py	/^from django.conf.urls import url$/;"	kind:namespace	line:16
+urlpatterns	../tutorial/urls.py	/^urlpatterns = [$/;"	kind:variable	line:19
+urls.py	../tutorial/urls.py	1;"	kind:file	line:1
+views.py	../snippets/views.py	1;"	kind:file	line:1
+wsgi.py	../tutorial/wsgi.py	1;"	kind:file	line:1
