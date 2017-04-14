@@ -30,5 +30,6 @@ if settings.DEBUG:
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^', include('snippets.urls')),
+    url('^accounts/', include('django.contrib.auth.urls')),
     url(r'^o/', include(oauth2_endpoint_views, namespace='oauth2_provider')),
 ]
